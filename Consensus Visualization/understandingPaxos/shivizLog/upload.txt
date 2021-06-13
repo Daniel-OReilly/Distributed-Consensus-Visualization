@@ -1,0 +1,76 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+A1 {"A1":1}
+Participant Initialized
+A1 {"P1":2, "A1" :2}
+Prepare Received
+A1 {"A1":3}
+Sending Promise
+A1 {"P1":4, "A1" :4}
+Propose Received
+A1 {"A1":5}
+Sending Accept
+A1 {"P1":6, "A1" :6}
+Prepare Received
+A1 {"A1":7}
+Sending Promise
+A1 {"P1":8, "A1" :8}
+Propose Received
+A1 {"A1":9}
+Sending Accept
+A2 {"A2":1}
+Participant Initialized
+A2 {"P1":2, "A2" :2}
+Prepare Received
+A2 {"A2":3}
+Sending Promise
+A2 {"P1":4, "A2" :4}
+Propose Received
+A2 {"A2":5}
+Sending Accept
+A2 {"P1":6, "A2" :6}
+Prepare Received
+A2 {"A2":7}
+Sending Promise
+A2 {"P1":8, "A2" :8}
+Propose Received
+A2 {"A2":9}
+Sending Accept
+A3 {"A3":1}
+Participant Initialized
+A3 {"P1":2, "A3" :2}
+Prepare Received
+A3 {"A3":3}
+Sending Promise
+A3 {"P1":4, "A3" :4}
+Propose Received
+A3 {"A3":5}
+Sending Accept
+A3 {"P1":6, "A3" :6}
+Prepare Received
+A3 {"A3":7}
+Sending Promise
+A3 {"P1":8, "A3" :8}
+Propose Received
+A3 {"A3":9}
+Sending Accept
+P1 {"P1":1}
+Participant Initialized
+P1 {"P1":2}
+Sending Prepare
+P1 {"A3":3, "P1" :3}
+Promise Received
+P1 {"P1":4}
+Sending Propose
+P1 {"A1":3, "P1" :5}
+Timeout Received
+P1 {"P1":6}
+Sending Prepare
+P1 {"A2":3, "P1" :7}
+Promise Received
+P1 {"P1":8}
+Sending Propose
+P1 {"A1":5, "P1" :9}
+Accept Received
+P1 {"A3":5, "P1" :10}
+Accept Received

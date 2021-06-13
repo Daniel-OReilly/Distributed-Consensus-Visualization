@@ -1,0 +1,20 @@
+P1 {"P1":1}
+Participant Initialized
+P1 {"P1":2}
+Sending Prepare
+P1 {"A3":3, "P1" :3}
+Promise Received
+P1 {"P1":4}
+Sending Propose
+P1 {"A1":3, "P1" :5}
+Timeout Received
+P1 {"P1":6}
+Sending Prepare
+P1 {"A2":3, "P1" :7}
+Promise Received
+P1 {"P1":8}
+Sending Propose
+P1 {"A1":5, "P1" :9}
+Accept Received
+P1 {"A3":5, "P1" :10}
+Accept Received

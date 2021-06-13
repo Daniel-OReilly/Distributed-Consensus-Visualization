@@ -1,0 +1,18 @@
+A3 {"A3":1}
+Participant Initialized
+A3 {"P1":2, "A3" :2}
+Prepare Received
+A3 {"A3":3}
+Sending Promise
+A3 {"P1":4, "A3" :4}
+Propose Received
+A3 {"A3":5}
+Sending Accept
+A3 {"P1":6, "A3" :6}
+Prepare Received
+A3 {"A3":7}
+Sending Promise
+A3 {"P1":8, "A3" :8}
+Propose Received
+A3 {"A3":9}
+Sending Accept

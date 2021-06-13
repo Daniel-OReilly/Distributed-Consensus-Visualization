@@ -1,0 +1,28 @@
+node2 12:29:24 {"node2": 1}
+Initialization Complete
+node1 12:29:58 {"node1": 1}
+Initialization Complete
+node3 12:31:05 {"node3": 1}
+Initialization Complete
+node1 12:30:08 {"node1": 2}
+Sending Message to Node2
+node2 12:30:12 {"node2": 2, "node1": 2}
+Received Message from Node1
+node2 12:30:48 {"node2": 3, "node1": 2}
+Sending Reply to Node1
+node1 12:30:52 {"node1": 3, "node2": 3}
+Received Reply from Node2
+node1 12:32:26 {"node1": 4, "node2": 3}
+Sending Message to Node2
+node2 12:32:31 {"node2": 4, "node1": 4}
+Received Message from Node1
+node3 12:32:29 {"node3": 2}
+Sending Message to Node1
+node1 12:32:44 {"node1": 5, "node2": 3, "node3": 2}
+Received Message from Node3
+node2 12:32:39 {"node2": 5, "node1": 4}
+Performing Local Work
+node2 12:32:48 {"node2": 6, "node1": 4}
+Sending Reply to Node1
+node1 12:32:53 {"node1": 6, "node2": 6, "node3": 2}
+Received Reply from Node2

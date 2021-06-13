@@ -13,4 +13,4 @@ as to create a visualization tool to aid future students in understanding Distri
 
 ## Produced Visualizations
 
-![alt text]("Consensus Visualization/Shiviz Images/example1.png)
+![Consensus Visualizations](https://github.com/Daniel-OReilly/Distributed-Consensus-Visualization/blob/master/Consensus%20Visualization/Shiviz%20Images/example1.png)
